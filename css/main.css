@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.index_body{
+    background-image: url(../imagenes/shrek_s_swamp_by_naouriredouane1998_ddn12c3-fullview.jpg);
+}
+.navigation{
+    background-color: #105e05;
+    display: flex;
+    padding-block: 12px;
+    padding-inline: 22px;
+    justify-content: space-between;
+}
+.titulo{
+        font-family: 'MedievalSharp', cursive;
+        font-weight: 600;
+        font-style: normal;
+        color: #1cf100;   
+}
+.links{
+    display: inline-block;
+    margin: 11px;
+    text-align: center;  
+}
+.links a{
+    color: black;
+    text-decoration: none;
+}
